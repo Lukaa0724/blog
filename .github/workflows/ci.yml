@@ -1,3 +1,5 @@
+pip install mkdocs-glightbox
+
 name: ci 
 on:
   push:
