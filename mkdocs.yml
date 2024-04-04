@@ -18,6 +18,12 @@ theme:
   logo: logo.jpg
   favicon: logo.jpg
 
+  # Set the icons
+  icon:
+    # Last and next page icon
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
   # Set the font
   font:
     text: Merriweather
@@ -43,6 +49,7 @@ nav:
   #- 学校课程:
   - Self-Learning: 
     - 搭建Blog: 'blogBuilding/build.md'
+    - TryNext: 'index.md'
 
   #- 其他:
 
