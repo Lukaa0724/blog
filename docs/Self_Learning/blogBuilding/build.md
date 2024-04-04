@@ -55,8 +55,18 @@ jobs:
 
 这样每次在master分支下更新内容，就会自动更新部署的界面
 
+但是请注意，这样的**github action**是没有插件的，我的理解是github action实际上为我们简化了mkdocs build的操作
+，因此本地安装的mkdocs的插件在github action上实际上无法使用，需要pip install我们的插件
+```yaml title="需要向ci.yml中添加的内容"
+  # 安装所需要的插件 
+  - run: pip install mkdocs-glightbox
+```
+
 ## CSS文件理解
 **CSS** 指层叠样式表 (Cascading Style Sheets)，就是对于HTML语言的渲染，这里有一个[CSS渲染HTML实例](https://www.runoob.com/try/demo_source/demo_default.htm)
+
+## CSS的颜色配置
+[颜色标准](https://www.color-hex.com/)可以参考，对比更加明显
 
 ## 图片的插入
 使用[lightbox插件](https://squidfunk.github.io/mkdocs-material/reference/images/#lightbox)使用HTML语言+Markdown是可以实现调整图片
@@ -69,16 +79,6 @@ jobs:
 ```
 缺点就是太过于繁琐，因此能使用文本就不要使用图片
 
-```
-#include <stdio.h>
-int main()
-{
-    int a;
-    return 0;
-}
-// what can i SAY
-
-```
 ## content.code.select失效
 问题尚未解决，不知道问题在哪里
 
