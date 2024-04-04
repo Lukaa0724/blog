@@ -1,5 +1,3 @@
-pip install mkdocs-glightbox
-
 name: ci 
 on:
   push:
@@ -28,4 +26,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      # 安装所需要的插件
+      - run: pip install mkdocs-glightbox
       - run: mkdocs gh-deploy --force
