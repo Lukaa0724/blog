@@ -1,7 +1,7 @@
 [data-md-color-scheme="default"] {
 /* 我猜fg是导航栏的颜色 bg是内容的栏的颜色*/
     --md-primary-fg-color: #00ae9d;
-    --md-default-bg-color: #fbb8b800;
+    --md-default-bg-color: #b8fbe11f;
   }
 
 [data-md-color-scheme="slate"] {
