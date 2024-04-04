@@ -1,10 +1,23 @@
 site_name: Lukaa's Page 
-extra_css:
-  - stylesheets/extra.css
-extra_javascript:
-  - javascripts/extra.js
+
 theme:
   name: material
+  features:
+    # Set the navigation
+    - navigation.tabs
+    # Set he navigation unmoved
+    - navigation.tabs.sticky
+    # Show the navigation path
+    - navigation.path
+    # Set the view follow
+    - toc.follow
+    # Return to the top button
+    - navigation.top
+
+
+  # Set the font
+  font:
+    text: Merriweather
   # Set the setting about the white/dark mode
   palette: 
 
@@ -30,3 +43,8 @@ nav:
 
   #- 其他:
 
+
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
