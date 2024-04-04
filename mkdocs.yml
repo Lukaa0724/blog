@@ -14,6 +14,9 @@ theme:
     # Return to the top button
     - navigation.top
 
+  # Set the logo
+  logo: logo.jpg
+  favicon: logo.jpg
 
   # Set the font
   font:
@@ -42,6 +45,10 @@ nav:
     - 搭建Blog: 'blogBuilding/build.md'
 
   #- 其他:
+
+# Set the website when click the logo
+extra:
+  homepage: https://lukaa0724.github.io/blog/ 
 
 
 extra_javascript:
