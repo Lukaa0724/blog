@@ -1,4 +1,32 @@
-site_name: My Docs
-
+site_name: Lukaa's Page 
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 theme:
   name: material
+  # Set the setting about the white/dark mode
+  palette: 
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)" # make the initial color is the same as the system setting
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+  - 主页: 'index.md'
+  #- 学校课程:
+  - Self-Learning: 
+    - 搭建Blog: 'blogBuilding/build.md'
+
+  #- 其他:
+
