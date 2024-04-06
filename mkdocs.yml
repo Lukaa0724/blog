@@ -72,6 +72,8 @@ nav:
     - vim: 'Self_Learning/vim/vim.md'
   - 日常bug:
     - v2rayN异常: 'Bug/v2rayN/v2rayN.md'
+  - 科研SRTP:
+    - conda: 'Research/conda/conda.md'
 
   #- 其他:
 
