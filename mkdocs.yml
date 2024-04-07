@@ -70,6 +70,7 @@ nav:
     - MkDocs搭建此站: 'Self_Learning/blogBuilding/build.md'
     - git & github: 'Self_Learning/git/git.md'
     - vim: 'Self_Learning/vim/vim.md'
+    - Juptyer: 'Self_Learning/jupyter/jupyter.md'
   - 日常bug:
     - v2rayN异常: 'Bug/v2rayN/v2rayN.md'
     - Copilot异常: 'Bug/copilot/copilot.md'
