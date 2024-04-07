@@ -30,3 +30,8 @@
 
 两个都是中文的，而且内容几乎一样
 
+
+## 其他一些资源
+- [ZLDF的LaTeX笔记](https://zhengliangduanfang.github.io/hmpg_mkdocs/misc/latex/)
+
+- [刘海洋LaTeX入门](https://yun.weicheng.men/Book/LaTeX%E5%85%A5%E9%97%A8.pdf) 工具书
