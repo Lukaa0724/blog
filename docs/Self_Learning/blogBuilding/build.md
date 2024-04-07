@@ -7,7 +7,7 @@
 
 - [咸鱼暄](https://xuan-insr.github.io/%E6%9D%82%E9%A1%B9/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/#%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)
 
-- [ZLDF](https://zhengliangduanfang.github.io/hmpg_mkdocs/%E6%9D%82%E9%A1%B9/building/)
+- [ZLDF](https://zhengliangduanfang.github.io/hmpg_mkdocs/)
 
 - [98一位大佬](https://7kevin24.github.io/Tech-guide/Mkdocs%20and%20Material%20theme/)
 
