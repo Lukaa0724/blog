@@ -29,6 +29,8 @@ Settings里面有关于HTTP的设置，不太懂就先放过去了。
 ## MySQL的使用 以及 SQL语法的补充
 数据库 banking [一键建库](https://blog.csdn.net/sandalphon4869/article/details/90722996)
 
+[简单的SQL语法速查](https://www.yiibai.com/jdbc/jdbc-sql-syntax.html)
+
 > set password for 'root'@localhost = 'XXXX';
 
 修改账户密码
@@ -120,3 +122,74 @@ public class FirstExample {
 因此需要在**？**前添加数据库名称，正确格式为
 > static final String DB_URL = "jdbc:mysql://localhost:3306/banking?user=root";
 
+### Warning Establishing SSL connection without 
+原因是MySQL在高版本需要指明是否进行SSL连接。解决方案如下：
+> static final String DB_URL = "jdbc:mysql://localhost:3306/banking?user=root&&useSSL=false";
+
+在代码后添加`&&useSSL = false`表示不使用SSL连接，这样就没有Warning了
+
+### PreparedStatement 练习
+```java title="pratice of PreparedStatement"
+import java.sql.*;
+
+public class FirstExample {
+    static final String JDBC_DRIVER = "com.mysql.jdbc.driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/banking?user=root&&useSSL=false";
+
+    static final String USER = "root";
+    static final String PWD = "123456";
+
+    public static void main(String[] args) {
+        Connection connect = null;
+        PreparedStatement state = null;
+
+        try{
+            // there maybe some errors and we must add
+            // 'catch(Exception s)'
+            Class.forName("com.mysql.jdbc.Driver");
+
+            // connect to the database
+            System.out.println("Connect to our database 'banking'");
+            connect = DriverManager.getConnection(DB_URL, USER, PWD);
+
+            // set our preparedStatement
+            System.out.println("Create our statement");
+            String sql = "update account set balance = ? where account_number = ?";
+            state = connect.prepareStatement(sql);
+
+            // bind the values
+            // 注意类型的匹配，并且要清楚 标号从一开始
+            state.setInt(1,10);
+            state.setString(2, "A-101");
+
+            int rows = state.executeUpdate();
+            System.out.println("Rows impacted : " + rows);
+
+            sql = "select * from account";
+            ResultSet rs = state.executeQuery(sql);
+
+            while(rs.next()) {
+                String account_number = rs.getString("account_number");
+                String branch_name = rs.getString("branch_name");
+                int balance = rs.getInt("balance");
+
+                System.out.println("account_number is " + account_number);
+                System.out.println("branch_name is " + branch_name);
+                System.out.println("balance is " + balance);
+            }
+
+            state.close();
+            connect.close();
+
+        }catch(Exception e) {
+            System.out.println("Register is in error!");
+        }
+        finally{
+
+        }
+        System.out.println("The program is end!");
+    }
+}
+```
+
+# Vim插件问题
