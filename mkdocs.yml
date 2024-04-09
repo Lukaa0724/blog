@@ -78,6 +78,8 @@ nav:
     - Copilot异常: 'Bug/copilot/copilot.md'
   - 科研SRTP:
     - conda: 'Research/conda/conda.md'
+  - 生活:
+    - 篮球: 'Life/basketball/basketball.md'
 
   #- 其他:
 
