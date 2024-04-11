@@ -67,6 +67,7 @@ nav:
   - 主页: 'index.md'
   - 学校课程: 
     - 数据库系统: 'Course/DB/DB.md'
+    - 课程资源索引: "Course/Index/Index.md"
   - Self-Learning: 
     - MkDocs搭建此站: 'Self_Learning/blogBuilding/build.md'
     - git & github: 'Self_Learning/git/git.md'
