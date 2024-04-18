@@ -1,9 +1,7 @@
 # Welcome to Lukaa's HomePage 
 
 !!! warning ""
-    想不出来什么比较有文采的话语，所以这里现在放这么一句话，手动ac06
-
-    以后碰到了合适的话再补上
+    Time Dose Not Wait!!!
 
 !!! note "介绍"
     浙江大学2022级计算机科学与技术专业在读本科生
