@@ -13,6 +13,8 @@
 
 [实验报告的 Typst 模板（如 FDS/ADS 大作业、数逻/计组实验报告等）](https://www.cc98.org/topic/5840106)
 
+[课程资源索引](https://www.yuque.com/xianyuxuan/saltfish_shop/course_res_index#cIhfl)
+
 
 ## 计算机组成
 [马德老师23-24智云](https://classroom.zju.edu.cn/coursedetail?course_id=58541&tenant_code=112)
@@ -34,6 +36,13 @@
 
 [孙建伶老师22-23智云](https://classroom.zju.edu.cn/coursedetail?course_id=47563&tenant_code=112)
 
+[作业答案](https://github.com/noahabe/database_system_concepts_answers)
+
+## 高级数据结构与算法
+[ADS/高级数据结构与算法分析学习笔记](https://www.cc98.org/topic/5663108) pdf版本 已下载 中文手写 还不错
+
+[Isshiki修's Notebook](https://note.isshikih.top/cour_note/D2CX_AdvancedDataStructure/)
+
 ## 中国书法史
 [23春夏 中国书法史 期末考试回忆](https://www.cc98.org/topic/5635429)
 
@@ -42,3 +51,6 @@
 [中国书法史回忆 22-23](https://www.cc98.org/topic/5347950)
 
 [2020-2021春学期《中国书法史》回忆卷](https://www.cc98.org/topic/5070891)
+
+## 人工智能
+[况琨老师23-24](https://classroom.zju.edu.cn/coursedetail?course_id=59651&tenant_code=112)
