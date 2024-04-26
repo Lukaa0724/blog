@@ -54,3 +54,7 @@
 
 ## 人工智能
 [况琨老师23-24](https://classroom.zju.edu.cn/coursedetail?course_id=59651&tenant_code=112)
+
+[人工智能基础【复习笔记】](https://www.cc98.org/topic/5800988)
+
+[鹤翔万里的笔记本 人工智能基础](https://note.tonycrane.cc/cs/ai/basic/)
