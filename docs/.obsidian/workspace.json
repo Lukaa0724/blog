@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "52159de5d2fe923d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7229379ae3d5ae54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ce2dfa489cd030b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Diary/我的日记本.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73980eacfd61afd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6b47dbbae4f458f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c9fbed634688d1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "31e72c71d1b2a205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db328930b98b6318",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "473d5b679d3b8444",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3a5d47211586b6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6194711372b0bb65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Life/Diary/我的日记本.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6fdc35239780910d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Life/Diary/我的日记本.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f86c5298fd96a5e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "89e6ccb1de014940",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Life/Diary/我的日记本.md"
+              }
+            }
+          },
+          {
+            "id": "c3195336b6be9421",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 321.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3ce2dfa489cd030b",
+  "lastOpenFiles": [
+    "LOKI/LOKI.md",
+    "Linux/Linux相关.md",
+    "LOKI/images/Pasted image 20240512135826.png",
+    "LOKI/images/Pasted image 20240512134129.png",
+    "LOKI/images",
+    "未命名.md",
+    "学习记录.md",
+    "LOKI",
+    "images/Pasted image 20240511184801.png",
+    "密码学/密码学.md",
+    "Linux",
+    "密码学/images/Pasted image 20240510184613.png",
+    "密码学/images/Pasted image 20240510184605.png",
+    "images/Pasted image 20240509170935.png",
+    "images/Pasted image 20240509164700.png",
+    "images/Pasted image 20240509164254.png",
+    "images/Pasted image 20240505163749.png",
+    "images/Pasted image 20240505162845.png",
+    "密码学/images",
+    "密码学",
+    "Python程序设计.md",
+    "Python.md",
+    "自学.md",
+    "Music.md",
+    "论文.md",
+    "大二下提前规划.md",
+    "工作.md",
+    "鲁棒.md",
+    "ADS(Advanced Data Structures and Algorithm Analysis).md",
+    "C++.md",
+    "SQL数据完整性.md",
+    "SQL数据定义和操作.md",
+    "DBMS的安装和使用.md",
+    "KK+STRP.md",
+    "().md",
+    "计算机组成.md",
+    "CS61A.md",
+    "PY.md",
+    "Vim.md",
+    "数字逻辑设计/数字逻辑设计 Logic and Computer Design Fundamentals.md",
+    "数字逻辑设计/LCDF5_Chap_04_P1-Sequential Circuit Analysis.pdf",
+    "数据结构基础/images",
+    "images",
+    "大学物理实验/images",
+    "数值分析/images",
+    "未命名.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas"
+  ]
+}

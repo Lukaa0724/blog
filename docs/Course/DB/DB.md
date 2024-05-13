@@ -2,6 +2,8 @@
 
 主要关于实验五 [图书管理系统](https://www.yuque.com/yingchengjun/ozqlqv/gnwbgi9my2ci7has?singleDoc=#abv8Q)
 
+大程[MiniSQL](https://www.yuque.com/yingchengjun/minisql)
+
 这里记录一些问题及其解决
 
 ## IDEA的安装

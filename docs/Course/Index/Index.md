@@ -13,6 +13,8 @@
 
 [实验报告的 Typst 模板（如 FDS/ADS 大作业、数逻/计组实验报告等）](https://www.cc98.org/topic/5840106)
 
+[ZJU_Courses](https://github.com/lhxcs/ZJU_Courses)
+
 [课程资源索引](https://www.yuque.com/xianyuxuan/saltfish_shop/course_res_index#cIhfl)
 
 
