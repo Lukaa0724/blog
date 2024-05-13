@@ -156,3 +156,40 @@ github希望我们用这样的指令 把当前的分支改名为main(master改�
 直接把git全删了 然后git init  git add .  git cm
 
 这个故事告诉我们 有大文件的时候 不要git add . 呜呜呜
+
+## gitignore文件
+**.gitignore**文件用来提交时忽略一些文件，非常简单实用
+```
+以”#”号开头表示注释；
+以斜杠“/”开头表示目录；
+以星号“*”通配多个字符；
+以问号“?”通配单个字符
+以方括号“[]”包含单个字符的匹配列表；
+以叹号“!”表示不忽略(跟踪)匹配到的文件或目录；
+```
+举个例子
+```
+*.txt  ，*.xls  表示过滤某种类型的文件
+target/ ：表示过滤这个文件夹下的所有文件
+/test/a.txt ，/test/b.xls  表示指定过滤某个文件下具体文件
+!*.java , !/dir/test/     !开头表示不过滤
+*.[ab]    支持通配符：过滤所有以.a或者.b为扩展名的文件
+/test  仅仅忽略项目根目录下的 test 文件，不包括 child/test等非根目录的test目录
+
+```
+
+### 删除git中的文件，仅仅保留本地的文件
+```
+git rm --cached 'fileName'
+```
+
+举个例子
+```
+git rm --cached main.cpp
+```
+如果是文件夹
+```
+git rm --cached -r .obsidan
+```
+### 知乎问题 要git add 然后git commit
+[为什么要先 git add 才能 git commit ？](https://www.zhihu.com/question/19946553)
