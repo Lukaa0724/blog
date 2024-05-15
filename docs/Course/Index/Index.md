@@ -29,6 +29,8 @@
 
 [23年《计算机组成与设计》实验文档参考](https://guahao31.github.io/2023_CO/)
 
+【学习天地】2022-2023春夏学期计算机组成与设计期末考试回忆卷（计院计组） https://www.cc98.org/topic/5640722 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
 
 ## 密码学
 [智云](https://classroom.zju.edu.cn/coursedetail?course_id=58005&tenant_code=112)
@@ -39,6 +41,22 @@
 [孙建伶老师22-23智云](https://classroom.zju.edu.cn/coursedetail?course_id=47563&tenant_code=112)
 
 [作业答案](https://github.com/noahabe/database_system_concepts_answers)
+
+【学习天地】超级详细！数据库系统/高级数据结构/计算机体系结构/操作系统 课程笔记 https://www.cc98.org/topic/5802634 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
+【学习天地】2022-2023学年春夏学期《数据库系统》期末回忆卷 https://www.cc98.org/topic/5637341 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
+【学习天地】2023春夏学期《数据库系统》（db）考试回忆 https://www.cc98.org/topic/5634023 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
+【学习天地】2022春夏学期《数据库系统》（DB）学习重点 https://www.cc98.org/topic/5353011 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
+【学习天地】2019-2020春夏《数据库系统》资料分享和总结 https://www.cc98.org/topic/4963416 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+
+【计算机学院】2020-2021春夏《数据库系统》笔记 https://www.cc98.org/topic/5108332 复制本链接到浏览器或者打开【CC98】微信小程序查看~ 这个很好看
+
+[历年卷整合包zip](https://file.cc98.org/v2-upload/blkc1fxo.zip)
+
+[HobbitQia的数据库笔记](https://note.hobbitqia.cc/DB/)
 
 ## 高级数据结构与算法
 [ADS/高级数据结构与算法分析学习笔记](https://www.cc98.org/topic/5663108) pdf版本 已下载 中文手写 还不错
@@ -60,3 +78,7 @@
 [人工智能基础【复习笔记】](https://www.cc98.org/topic/5800988)
 
 [鹤翔万里的笔记本 人工智能基础](https://note.tonycrane.cc/cs/ai/basic/)
+
+## OOP
+
+[HobbitQia的OOP笔记](https://note.hobbitqia.cc/OOP/)
