@@ -6,6 +6,36 @@
 
 这里记录一些问题及其解决
 
+## Minisql 
+### 搭建问题
+![](images/Pasted%20image%2020240517104847.png)
+为什么回合anaconda有关系，我猜想是因为GTest使用的anaconda中的变量，所以有问题，需要让wsl不能访问我们的系统的环境变量
+[在WSL ubuntu中禁用windows下的环境变量的方法](https://blog.csdn.net/weixin_43698781/article/details/124792708)
+
+`sudo vi /etc/wsl.conf`，添加代码
+```bash
+[interop]
+enabled = false
+appendWindowsPath = false
+
+```
+这样就是让wsl无法访问主机的环境变量
+
+而后打开powershell
+```bash
+最直接的方法，把所有的都关闭：
+wsl --shutdown
+
+或者只关闭需要的wsl：
+# 先查看一下正在运行的wsl的名称：
+wsl --list --running
+# 然后把需要的wsl关闭即可，比如查到的是Ubuntu-20.04，则输入：
+wsl --terminate Ubuntu-20.04
+之后重新打开wsl ubuntu即可
+```
+
+
+
 ## IDEA的安装
 程序的安装倒是没有那么困难，困难的地方在于**学生认证**和**Vim**插件安装，
 学生认证不能直接使用邮箱认证或者Github学生认证，也不知道问题出在哪里，因此只能采用文件认证，

@@ -62,6 +62,8 @@ And I summarized what I learned.
 
 创建并且切换到dev分支 相当于
 > git branch dev
+
+
 > git checkout dev
 
 
@@ -193,3 +195,26 @@ git rm --cached -r .obsidan
 ```
 ### 知乎问题 要git add 然后git commit
 [为什么要先 git add 才能 git commit ？](https://www.zhihu.com/question/19946553)
+
+## git中fork的使用
+[fork的原理](https://www.cnblogs.com/lovecode521/p/5620724.html)简单来说，`git clone`将代码添加到本地，`git fork`将代码添加到远程仓库，并且会克隆出各个，`commit`信息等。
+
+fork之后再进行操作，相当于在原项目基础下更改，如果觉得代码有问题，可以
+
+对于代码实现，参考[Github上Fork别人代码后，提交自己的修改](https://blog.csdn.net/u012435142/article/details/89491388)
+
+## 关于git upstream 和 origin 的区别
+
+[git upstream 和 origin 的区别](https://blog.csdn.net/weixin_37646636/article/details/129778632)这篇文章写的非常好，Upstream相当于我们Fork的原始的仓库，origin相当于我们clone下载fork后的仓库
+
+## SSH原理以及添加
+[git远程仓库的创建及SSH密钥配置入门【保姆级教学】](https://blog.csdn.net/wanjun_007/article/details/126751872)
+
+## git多人协作
+`git branch -a` 
+列出本地和远程仓库的所有分支
+
+`git push origin -d XXX`
+删除远程仓库的XXX分支
+
+	
