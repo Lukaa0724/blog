@@ -67,6 +67,7 @@ nav:
   - 主页: 'index.md'
   - 学校课程: 
     - 课程资源索引: "Course/Index/Index.md"
+    - 汇编语言程序设计基础: "Course/汇编语言程序设计基础/汇编语言程序设计基础.md"
     - 数据库系统: 'Course/DB/DB.md'
   - Self-Learning: 
     - MkDocs搭建此站: 'Self_Learning/blogBuilding/build.md'
@@ -75,7 +76,9 @@ nav:
     - Juptyer: 'Self_Learning/jupyter/jupyter.md'
     - LaTeX: 'Self_Learning/LaTeX/LaTeX.md'
     - Vivado: 'Self_Learning/Vivado/Vivado.md'
+    - Linux: 'Self_Learning/Linux/Linux相关.md'
   - 日常bug:
+    - VSCode bug相关: 'Bug/vscode/vscode bug相关.md'
     - v2rayN异常: 'Bug/v2rayN/v2rayN.md'
     - Copilot异常: 'Bug/copilot/copilot.md'
   - 科研SRTP:

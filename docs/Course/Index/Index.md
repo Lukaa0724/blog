@@ -82,3 +82,9 @@
 ## OOP
 
 [HobbitQia的OOP笔记](https://note.hobbitqia.cc/OOP/)
+
+## 汇编语言程序设计基础
+
+[智云](https://classroom.zju.edu.cn/coursedetail?course_id=60090&tenant_code=112)
+
+【学习天地】汇编语言基础笔记分享 https://www.cc98.org/topic/5239637 复制本链接到浏览器或者打开【CC98】微信小程序查看~

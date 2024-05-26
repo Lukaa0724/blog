@@ -1,3 +1,13 @@
+## Ubuntu 22.04的安装以及基础设置
+使用VMWare配置Ubuntu的[教程](https://blog.csdn.net/yang4123/article/details/131661855)，以及需要使用的[ZJU Mirror](https://mirrors.zju.edu.cn/)
+
+## Linux中gbd调试
+主要的[基础操作](https://blog.csdn.net/qq_52242864/article/details/131029041)
+
+
+
+
+
 ## Ping指令的使用
 ![](images/Pasted%20image%2020240517084147.png)
 测试能不能访问某个网站，如果是上面的就是无法访问，下面的就是可以访问

@@ -4,6 +4,16 @@
 
 大程[MiniSQL](https://www.yuque.com/yingchengjun/minisql)
 
+## 网上的一些资源
+[CS186 2022 spring 个人笔记](https://zhuanlan.zhihu.com/p/504749706)
+
+[数据库学习笔记(4)](https://zhuanlan.zhihu.com/p/579117417)
+
+[数据库学习笔记：第九章 存储数据：磁盘和文件](https://www.cnblogs.com/linjj/p/4422262.html "发布于 2015-04-13 15:12")]
+
+
+
+
 这里记录一些问题及其解决
 
 ## Minisql 
