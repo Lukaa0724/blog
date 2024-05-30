@@ -217,4 +217,25 @@ fork之后再进行操作，相当于在原项目基础下更改，如果觉得�
 `git push origin -d XXX`
 删除远程仓库的XXX分支
 
+## Merge 存在冲突
+在项目实际过程中，出现了合并冲突，我的`master`和`ljd`分支有相同的提交记录，没有谁比谁先的层次，因此就会冲突
+
+解决办法
+首先取消合并，恢复到合并前的状态
+```bash
+git merge --abort
+```
+然后通过
+```bash
+git reset --hard HEAD^
+```
+删除上次一的commit，这样会让master分支领先一个版本
+
+```bash
+git merge master
+```
+在`ljd`分支下合并`master`这样就不会存在问题了
+
+
+
 	

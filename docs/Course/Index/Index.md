@@ -80,9 +80,22 @@
 [鹤翔万里的笔记本 人工智能基础](https://note.tonycrane.cc/cs/ai/basic/)
 
 ## OOP
+[智云](https://classroom.zju.edu.cn/coursedetail?course_id=58553&tenant_code=112)
 
 [HobbitQia的OOP笔记](https://note.hobbitqia.cc/OOP/)
 
+[OOP笔记参考](https://www.yuque.com/oneko/something/oop)
+
+[OOP错题集1](https://k5ms77k0o1.feishu.cn/wiki/wikcnH7YKB6KFCwCXgRdXk2MZAf)
+
+[OOP错题集2](https://zhoutimemachine.github.io/note/courses/oop-mid-review/)
+
+[OOP历年卷 仓库中还有很多有用的](https://github.com/RyanFcr/ZJU_Course/tree/main/%E5%A4%A7%E4%BA%8C%E6%98%A5%E5%A4%8F/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1OOP)
+
+【学习天地】考前整理出来的OOP笔记 https://www.cc98.org/topic/5644551 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+[咸鱼前面的C++学习](https://xuan-insr.github.io/cpp/cpp_restart/)
+
+【学习天地】面向对象程序设计（oop）上课及自学的一点心得 https://www.cc98.org/topic/5116540 复制本链接到浏览器或者打开【CC98】微信小程序查看~
 ## 汇编语言程序设计基础
 
 [智云](https://classroom.zju.edu.cn/coursedetail?course_id=60090&tenant_code=112)

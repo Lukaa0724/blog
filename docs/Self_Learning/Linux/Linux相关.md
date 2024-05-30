@@ -15,9 +15,16 @@
 ## 关于Ubuntu任何源都无法访问
 问题描述：**sudo apt-get update Cannot initiate the connection to archive.ubuntu.com:80**
 
+[参考](https://blog.csdn.net/u014038143/article/details/114743491)不懂是什么原因，但是通过增大端口后，可以正常使用了
+
 尝试了很多方法，[更换软件源](https://blog.csdn.net/hemmmm/article/details/136133844)，将Https改为Http，设置nameserve，等等，无论什么方法都无法解决。
 
 将[wsl降级](https://blog.csdn.net/zhihao_li/article/details/131248100)降级为wsl1就可以正常update了，不知道这是什么奇怪的bug。
+
+```bash
+wsl --set-version Ubuntu-22.04 2
+```
+
 
 ## Ubuntu换源
 [清华大学镜像站](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)，使用其源代码，修改 `/etc/apt/sources.list`文件

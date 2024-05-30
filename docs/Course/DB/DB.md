@@ -44,6 +44,7 @@ wsl --terminate Ubuntu-20.04
 之后重新打开wsl ubuntu即可
 ```
 
+### 逻辑记录
 
 
 ## IDEA的安装
@@ -234,4 +235,3 @@ public class FirstExample {
 }
 ```
 
-# Vim插件问题
