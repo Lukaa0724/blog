@@ -29,3 +29,4 @@ jobs:
       # 安装所需要的插件
       - run: pip install mkdocs-glightbox
       - run: mkdocs gh-deploy --force
+      - run: pip install mkdocs-git-revision-date-localized-plugin
