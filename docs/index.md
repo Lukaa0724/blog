@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Welcome to Lukaa's HomePage 
 
 !!! warning ""
@@ -12,4 +15,4 @@
 !!! success "最近在努力学习"
     MkDocs搭建博客
 
-    SRTP纵向联邦学习相关代码复现
+    深度学习前沿技术与应用

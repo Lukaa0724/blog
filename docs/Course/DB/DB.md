@@ -3,7 +3,7 @@
 主要关于实验五 [图书管理系统](https://www.yuque.com/yingchengjun/ozqlqv/gnwbgi9my2ci7has?singleDoc=#abv8Q)
 
 大程[MiniSQL](https://www.yuque.com/yingchengjun/minisql)
-
+![](images/Pasted%20image%2020240606135405.png)
 ## 网上的一些资源
 [CS186 2022 spring 个人笔记](https://zhuanlan.zhihu.com/p/504749706)
 
@@ -11,7 +11,49 @@
 
 [数据库学习笔记：第九章 存储数据：磁盘和文件](https://www.cnblogs.com/linjj/p/4422262.html "发布于 2015-04-13 15:12")]
 
+## valgrind使用方法
+[参考文章](https://www.zhihu.com/question/382668081/answer/2481122094?utm_id=0)
 
+使用
+```bash
+sudo apt install valgrind
+```
+安装valgrind，然后可以使用`valgrind --version`查看版本，检测是否安装成功
+
+使用指令
+```bash
+valgrind --tool=memcheck --leak-check=full ./EXE
+```
+查看内存泄露的详细信息
+
+
+## Perf的使用方法
+下载源码编译以及`make`后，可以`sudo cp perf /usr/local/bin`来把其移动到根目录，这样就可以使用了
+
+![](images/Pasted%20image%2020240605202938.png)
+调试时没有函数名字是因为`make`得到的perf没有打开`dwarf`，因此需要
+```bash
+sudo apt-get install libdw-dev
+sudo apt-get install -y elfutils
+```
+安装一些东西重新`make`得到perf
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1396654
+
+https://stackoverflow.com/questions/32468991/perf-report-function-names-and-extra-characters
+
+
+```bash
+perf record -g --call-graph dwarf ./table_heap_test
+```
+```bash
+perf record -F 99 ./table_heap_test
+```
+显示的report不太一样
+来测试程序的性能，并且会生成性能report
+```bash
+perf report
+```
+来查看刚刚的报告
 
 
 这里记录一些问题及其解决
@@ -235,3 +277,6 @@ public class FirstExample {
 }
 ```
 
+
+![](images/Pasted%20image%2020240615220954.png)
+![](images/Pasted%20image%2020240615221249.png)

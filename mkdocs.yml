@@ -1,18 +1,20 @@
+# Set some attribute
 repo_url: https://github.com/Lukaa0724/blog
-repo_name: blog
+repo_name: repo
 edit_uri: edit/master/docs/
+site_url: https://lukaa0724.github.io/blog/
 
 site_name: Lukaa's Page 
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     # Set the navigation
     - navigation.tabs
     # Set he navigation unmoved
     - navigation.tabs.sticky
-    # Show the navigation path
-    - navigation.path
+    - navigation.indexes
     # Set the view follow
     - toc.follow
     # Return to the top button
@@ -21,34 +23,27 @@ theme:
     - navigation.footer
     # 代码块显示复制按钮
     - content.code.copy
-    # 设置鼠标跟随行高亮
+    # 设置鼠标跟随行高亮  
     - content.code.select
     # 搜索建议
     - search.suggest
     # 搜索结果高亮
     - search.highlight
 
-
-
   # Set the logo
-  logo: logo.jpg
-  favicon: logo.jpg
+  logo: logo.png
+  favicon: logo.png
 
-  # Set the icons
-  #icon:
-  #  # Last and next page icon
-  #  previous: fontawesome/solid/angle-left
-  #  next: fontawesome/solid/angle-right
   icon:
-    repo: fontawesome/brands/github-alt 
+    repo: fontawesome/brands/github
 
-
-  # Set the font
+  # Set the font with the formal font and code font
   font:
     text: Merriweather
+    code: Roboto Mono
+
   # Set the setting about the white/dark mode
   palette: 
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)" # make the initial color is the same as the system setting
       scheme: default
@@ -64,13 +59,15 @@ theme:
         name: Switch to light mode
 
 nav:
-  - 主页: 'index.md'
+  - Home: 'index.md'
   - 学校课程: 
     - 课程资源索引: "Course/Index/Index.md"
     - 汇编语言程序设计基础: "Course/汇编语言程序设计基础/汇编语言程序设计基础.md"
     - 数据库系统: 'Course/DB/DB.md'
   - Self-Learning: 
-    - MkDocs搭建此站: 'Self_Learning/blogBuilding/build.md'
+    - MkDocs:
+      - 基础搭建: 'Self_Learning/blogBuilding/build.md'
+      - 高级用法: 'Self_Learning/blogBuilding/advance.md'
     - git & github: 'Self_Learning/git/git.md'
     - vim: 'Self_Learning/vim/vim.md'
     - Juptyer: 'Self_Learning/jupyter/jupyter.md'
@@ -83,11 +80,6 @@ nav:
     - Copilot异常: 'Bug/copilot/copilot.md'
   - 科研SRTP:
     - conda: 'Research/conda/conda.md'
-  - 生活:
-    - 日记: 'Life/Diary/Diary.md'
-    - 篮球: 'Life/basketball/basketball.md'
-
-  #- 其他:
 
 # Set the website when click the logo
 extra:
@@ -95,17 +87,18 @@ extra:
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<jingdianlu@zju.edu.cn>
-  # delete "made with material for mkdocs"
-  generator: false
 
 extra_javascript:
-  - javascripts/extra.js
+  # Add the support for latex and math
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
   # 添加告诫 警示 admonitions
   - admonition
+  - pymdownx.betterem
   - pymdownx.details
   - pymdownx.superfences
   # 插入图片相关
@@ -118,9 +111,18 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 
 plugins:
+  # to display the last update time 
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: !ENV [CI, true]
+      type: iso_date
   # 插入图片控制大小
   - glightbox
   # 搜索功能

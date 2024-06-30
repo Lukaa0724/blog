@@ -13,6 +13,8 @@
 
 [实验报告的 Typst 模板（如 FDS/ADS 大作业、数逻/计组实验报告等）](https://www.cc98.org/topic/5840106)
 
+[浙江大学混合班CS的一些课程的资料整理，质量很高](https://github.com/2811668688/ZJU-CS)
+
 [ZJU_Courses](https://github.com/lhxcs/ZJU_Courses)
 
 [课程资源索引](https://www.yuque.com/xianyuxuan/saltfish_shop/course_res_index#cIhfl)
@@ -42,7 +44,7 @@
 
 [作业答案](https://github.com/noahabe/database_system_concepts_answers)
 
-【学习天地】超级详细！数据库系统/高级数据结构/计算机体系结构/操作系统 课程笔记 https://www.cc98.org/topic/5802634 复制本链接到浏览器或者打开【CC98】微信小程序查看~
+【学习天地】超级详细！数据库系统/高级数据结构/计算机体系结构/操作系统 课程笔记 https://www.cc98.org/topic/5802634 复制本链接到浏览器或者打开【CC98】微信小程序查看~ 指令非常高
 
 【学习天地】2022-2023学年春夏学期《数据库系统》期末回忆卷 https://www.cc98.org/topic/5637341 复制本链接到浏览器或者打开【CC98】微信小程序查看~
 
