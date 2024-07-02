@@ -78,8 +78,9 @@ nav:
     - VSCode bug相关: 'Bug/vscode/vscode bug相关.md'
     - v2rayN异常: 'Bug/v2rayN/v2rayN.md'
     - Copilot异常: 'Bug/copilot/copilot.md'
-  - 科研SRTP:
-    - conda: 'Research/conda/conda.md'
+  - 深度学习:
+    - 短学期综合实践: '深度学习/deep_learning.md'
+    - python提升: '深度学习/python提升.md'
 
 # Set the website when click the logo
 extra:
@@ -101,7 +102,7 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.details
   - pymdownx.superfences
-  # 插入图片相关
+  # add the grids
   - attr_list
   - md_in_html
   # 代码高亮相关
