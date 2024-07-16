@@ -14,7 +14,7 @@
 [Here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#+type:note)可以查看这些常用的`admonitions`的样子
 
 ## 评论系统的搭建
-[https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/](官方教程)
+[官方教程](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/))
 
 [基于 giscus 为网站添加评论系统](https://fengchao.pro/blog/comment-system-with-giscus/)
 

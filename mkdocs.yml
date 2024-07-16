@@ -79,8 +79,9 @@ nav:
     - v2rayN异常: 'Bug/v2rayN/v2rayN.md'
     - Copilot异常: 'Bug/copilot/copilot.md'
   - 深度学习:
-    - 短学期综合实践: '深度学习/deep_learning.md'
+    - 短学期综合实践: '深度学习/短学期综合实践.md'
     - python提升: '深度学习/python提升.md'
+    - 因果机器学习: '深度学习/因果机器学习.md'
 
 # Set the website when click the logo
 extra:
